@@ -7,14 +7,65 @@
     </head>
     <body>
         <nav class="navbar">
-            <div> My Portfolio</div>
+         
             <ul class="navlinks"> 
                 <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#about" >About</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
-        <h1>Projects</h1>
+        <main>
+            <section id="home">
+                <h1>Yenziwe Motha</h1>
+                <h2>Aspiring Data Scientist & Software Developer</h2> 
+                <p>I build practical software solutions and explore data to uncover insights, solve problems and create usefull applications</p>
+                <a href="#projects">View my projects</a> 
+                <a href="#contact">Contact Me</a>
+            </section>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am a BSc Mathematical Sciences (University of Limpopo) graduate with hands-on experience in application
+                    development, relational databases and SQL. In my spare time I am a basketball player and coach.</p>
+            </section>
+            <section id="projects">
+                <h2>My Projects</h2>
+                <article class="project-card">
+                    <h3>Premier League Match Analysis</h3>
+                    <h4>Description</h4>
+                    <p>A data science and machine learning project where I clean and process close to 10 000  records of Premier Legue games from 2000 until 2025</p>
+                    <p>It also includes training a Rondom Forest model to predict match results and game statistics based of a team's last 4 games</p>
+                    <h4>Technology stack</h4>
+                    <p>Python, Scikit Learn, Pandas</p>
+                </article>
+                 <article class="project-card">
+                    <h3>DentAcademy</h3>
+                    <h4>Description</h4>
+                    <p>A final year project for BSc Mathematical Sciences. DentAcademy is a apprentice management portal for Dent Doctor, an automotive repair company</p>
+                    <p>With the use of machine learning the system can provide predictions for an apprentice likelihood of program completion over 10 000 synthatically generated records </p>
+                    <h4>Technology stack</h4>
+                    <p>Frontend: React , Javascript,Tailwind CSS, Vite</p>
+                    <p>Backend: FASTAPI, Python</p>
+                    <p>Database: MySQL and SQLAlchemy</p>
+
+                </article>
+                 <article class="project-card">
+                    <h3>Database Management System</h3>
+                    <h4>Description</h4>
+                    <p>BSc Mathematical Sciences (University of Limpopo) final year project for Database Management(SCOA031). Goal was to build a complete Database Management system for a company that is running on the AdventureWorks2022 Database. Project scope covers from automation to backups and maintenance</p>
+                    <h4>Technology stack</h4>
+                    <p>SQL on Microsoft SQL Server</p>
+                </article>
+                  <article class="project-card">
+                    <h3>Distributed Computing</h3>
+                    <h4>Description</h4>
+                    <p>This is a distributed computing project where a linear regression machine learning model is trained across 3 systems( 1 Linux and 2 Windows machines) using a parameter server</p>
+                    <h4>Technology stack</h4>
+                    <p>Python, Scikit Learn, Parameter server</p>
+                </article>
+            </section>
+            <section id="contact"><h2>Contact Me</h2></section>
+
+        </main>
     </body>
 </html>
