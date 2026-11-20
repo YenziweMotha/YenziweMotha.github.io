@@ -29,7 +29,7 @@ body{
 }
 .navbar{
     display: flex;
-    justify-content: flex-end;
+    
     align-items: center;
     background-color: #0b1220;
 }
@@ -41,6 +41,7 @@ body{
     gap: 2rem;
     list-style: none;
     padding: 0;
+    margin-left: auto;
 }
 
 .navlinks a {
