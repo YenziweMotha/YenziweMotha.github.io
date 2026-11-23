@@ -59,10 +59,12 @@ body{
 .hero{
     min-height: 80vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2rem;
-    align-items: flex-start;
+    flex-direction: row;
+    padding: 2rem 8%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 100%;
 }
 
 .hero h1{
@@ -93,13 +95,14 @@ body{
 }
 
 .hero-buttons a {
+    display: inline-block;
     text-decoration: none;
     padding: 0.8rem 1.5rem;
     border-radius: 8px;
     font-weight: 600;
     transition: all 0.3s ease;
     background-color: var(--primary);
- 
+ color: var(--text);
 }
 
 .hero-buttons .secondary-btn{
@@ -111,4 +114,19 @@ body{
 .hero-buttons a:hover{
    color: var(--text);
     transform: translateY(-3px);
+}
+
+.hero-image img {
+    width: 100% ;
+    max-width: 450px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+@media(max-width: 768px){
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
 }
