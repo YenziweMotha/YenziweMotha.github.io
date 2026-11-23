@@ -260,3 +260,20 @@ body{
     font-size: 0.85rem;
   
 }
+
+.project-links{
+    display: inline-block;
+    background-color: transparent;
+    padding: 0;
+}
+
+.project-links a {
+    display: inline-block;
+padding: 0.6rem 1rem;
+border: 1px solid var(--primary);
+border-radius: 6px;
+}
+.project-links a:hover {
+    color: var(--primary);
+    transform: translateY(-3px);
+}
