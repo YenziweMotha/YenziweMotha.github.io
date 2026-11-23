@@ -122,6 +122,14 @@ body{
     height: auto;
     object-fit: cover;
     display: block;
+    border-radius: 24px;
+    border: 2px solid var(--border);
+    box-shadow: 0 10px 30px rgba(37,99,235,0.18);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hero-image img:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(37, 99, 235, 0.3);
 }
 
 @media(max-width: 768px){
