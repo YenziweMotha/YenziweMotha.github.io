@@ -265,6 +265,7 @@ body{
     display: inline-block;
     background-color: transparent;
     padding: 0.25rem;
+    gap: 0.35rem;
 }
 
 .project-links a {
