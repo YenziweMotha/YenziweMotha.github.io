@@ -242,13 +242,14 @@ body{
 }
 .project-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 
 .tech-tag{
     background-color: var(--primary);
     color: var(--text);
-    padding: 2rem;
-    border-radius: 4px;
+    padding: 0.4rem;
+    border-radius: 8px;
+    display: inline-block;
 }
