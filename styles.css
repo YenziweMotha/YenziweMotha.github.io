@@ -136,5 +136,21 @@ body{
     .hero{
         flex-direction: column;
         text-align: center;
+        padding: 3rem 1.5rem;
+        gap: 2rem;
     }
+    hero-content{
+        width: 100%;
+    }
+    .hero-image{
+        width: 100%;
+    }
+    .hero-image img {
+        width: 100%;
+        max-width: 350px;
+    }
+.hero-buttons{
+    justify-content: center;
+    flex-wrap: wrap;
+}
 }
